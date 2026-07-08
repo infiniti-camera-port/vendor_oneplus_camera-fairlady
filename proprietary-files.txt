@@ -7,6 +7,8 @@ odm/etc/camera/cfr_bin/CFR_fairladyExmain.bin
 odm/etc/camera/cfr_bin/CFR_fairladyExtele.bin
 odm/etc/camera/cfr_bin/CFR_fairladymain.bin
 odm/etc/camera/cfr_bin/CFR_fairladytele.bin
+odm/etc/camera/eis_camera.vcfg
+odm/etc/camera/facerestore/InitParams.json
 odm/etc/camera/config/camera_third_party_feature_config.protobuf
 odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/camera_unit_feature_config.protobuf
@@ -29,14 +31,13 @@ odm/etc/camera/dng/ToneCurve_fairladymain.txt
 odm/etc/camera/dng/ToneCurve_fairladytele.txt
 odm/etc/camera/fwk_config.json
 odm/etc/camera/media_profiles.xml
+odm/etc/camera/oplus_eis_camera.vcfg
+odm/etc/camera/vainr_cfg.json
 odm/etc/init/init.camera_process.rc
 odm/lib64/camera/AIAWB_q.odnn
 odm/lib64/camera/awb_parameter_fairladyfront.bin
 odm/lib64/camera/awb_parameter_fairladymain.bin
 odm/lib64/camera/awb_parameter_fairladytele.bin
-odm/lib64/camera/com.qti.sensor.fairladyfront.so
-odm/lib64/camera/com.qti.sensor.fairladymain.so
-odm/lib64/camera/com.qti.sensor.fairladytele.so
 odm/lib64/camera/com.qti.sensormodule.fairladyfront.bin
 odm/lib64/camera/com.qti.sensormodule.fairladymain.bin
 odm/lib64/camera/com.qti.sensormodule.fairladytele.bin
@@ -65,8 +66,4 @@ odm/lib64/camera/libpdCustomParam_Cam3.bin
 # Excluded variant donor rows by functional decision:
 # - odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin
 
-# Donor-absent optional rows from the Todo 13 checklist:
-# - odm/etc/camera/config/eis_camera.vcfg
-# - odm/etc/camera/config/oplus_eis_camera.vcfg
-# - odm/etc/camera/config/vainr_cfg.json
-# - odm/etc/camera/config/facerestore/InitParams.json
+# Todo 13 exact CFR front blocker names are macan/macanc-only and donor-absent there.
