@@ -7,6 +7,9 @@ $(call inherit-product, vendor/oneplus/camera-sm8850-common/camera-sm8850-common
 
 $(call inherit-product, proprietary/vendor/oneplus/camera-fairlady/camera-fairlady-vendor.mk)
 
+PRODUCT_COPY_FILES += \
+    vendor/oneplus/camera-fairlady/configs/init/init.camera_process.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_process.rc
+
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.build.version.ota=PLZ110_11.A.31_0310_202605280615 \
     ro.oplus.pipeline.region=CN \
